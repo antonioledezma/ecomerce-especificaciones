@@ -17,8 +17,8 @@ INSERT INTO ecomerce.factura_carrito (FACTURA_ID,CART_ID) VALUES
 	 (4,13),
 	 (5,13);
 
--- product
-INSERT INTO ecomerce.product (name,description,price,amount,src_img,IS_NEW) VALUES
+-- producto
+INSERT INTO ecomerce.producto (name,description,price,amount,src_img,IS_NEW) VALUES
 	 ('Almendras','Venta por Kg. Las almendras son frutos secos comestibles, semillas del almendro, un árbol de la familia de las rosáceas. Tienen forma ovalada y alargada, con una cáscara dura de color marrón claro, y su interior es la parte comestible, de sabor dulce y',1,0,'1750947685_ee8f82bab462cc5fff31.png',1),
 	 ('Bananas Pasas','Las pasas de banana, también conocidas como plátanos deshidratados, son una opción de snack saludable y nutritiva. Son ricas en vitaminas, minerales como potasio y fibra, y ofrecen energía sostenida.',10000,7,'1751476532_45fd11e64f868978c772.png',1),
 	 ('Pistachos','Los pistachos son frutos secos comestibles de forma ovalada, con una cáscara dura y de color verde intenso, aunque a veces se tiñen de rojo o verde en los pistachos comerciales. Suelen tener una cáscara que se abre naturalmente al madurar. La semilla, de ',10000,14,'1750947812_41dc2fecc268f98e16ae.png',1),
@@ -48,8 +48,8 @@ INSERT INTO ecomerce.`user` (USERNAME,PASSWORD,EMAIL,`ROLE`) VALUES
 	 ('antonioledezma2','$2y$12$hKUoJLyZgKjpWuQe1u/HoO0y6pCVrZMAOCHhC5jhWnBZNPaieBKEC','123123@123123','USER'),
 	 ('demo','$2y$12$lmEwJ8d/WZoDz2/CdkvyK.zyj9B/y5KTWTZjV88MH51.OBh5LIA6C','demo@demo','USER');
 
--- cart
-INSERT INTO ecomerce.cart (USER_ID,PRODUCT_ID,AMOUNT,status) VALUES
+-- carrito
+INSERT INTO ecomerce.carrito (USER_ID,PRODUCT_ID,AMOUNT,status) VALUES
 	 (23,8,2,'COMPLETED'),
 	 (0,17,1,'COMPLETED'),
 	 (23,16,3,'COMPLETED'),
@@ -61,5 +61,5 @@ INSERT INTO ecomerce.cart (USER_ID,PRODUCT_ID,AMOUNT,status) VALUES
 	 (24,19,1,'COMPLETED'),
 	 (24,17,3,'COMPLETED');
 
-INSERT INTO ecomerce.cart (USER_ID,PRODUCT_ID,AMOUNT,status) VALUES
+INSERT INTO ecomerce.carrito (USER_ID,PRODUCT_ID,AMOUNT,status) VALUES
 	 (24,20,2,'COMPLETED');

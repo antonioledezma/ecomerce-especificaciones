@@ -1,2 +1,1 @@
--- Diagrama
-![Diagrama](/DIAGRAMA_ER.png)
+![Diagrama](/DIAGRAMA_ER.PNG)

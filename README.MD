@@ -1,2 +1,2 @@
 
-![Diagrama](/DIAGRAMA_RP.png)
+![Diagrama](/DIAGRAMA_ER.png)

@@ -1,6 +1,6 @@
 -- ecomerce.cart definition
 
-CREATE TABLE `cart` (
+CREATE TABLE `carrito` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `USER_ID` int(11) NOT NULL,
   `PRODUCT_ID` int(11) NOT NULL,
@@ -46,7 +46,7 @@ CREATE TABLE `factura_carrito` (
 
 -- ecomerce.product definition
 
-CREATE TABLE `product` (
+CREATE TABLE `producto` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
